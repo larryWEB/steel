@@ -183,10 +183,11 @@ color: black;
 }
 
 
-.logo-card img{
-width:40px;
+.logo-card img,
+.foot-logo-card img{
+width:150px;
 position:relative;
-top:5px;
+top:10px;
 }
 
 
@@ -781,7 +782,7 @@ footer{
 	flex-direction:column;
 	justify-content:center;
 	color:black;
-	background-color: var(--color-grey);
+	background-color: white;
 }
 
 .foot-logo-card{
@@ -941,8 +942,7 @@ padding:20px;
 	
 		.what-we-do-card{
 			padding: 30px 15px 10px 25px;
-			width: 250px;
-			height:220px;
+			
 		}
 	
 	
@@ -1160,6 +1160,8 @@ display:flex;
 gap:15px;
 padding-bottom:40px;
 }
+
+
 
 .foot-logo-card p{
    font-size:11px;
