@@ -123,7 +123,9 @@
              Together, we embrace a future illuminated by excellence, innovation, 
              and the indomitable spirit of teamwork. </p>
               
-              <div class="team-card-mother">
+              
+
+                <div class="small-mom">
         
         <div class="team-card">
         
@@ -148,8 +150,17 @@
             <p> <b>Director</b> </p>
             
             </div>
+
         
-        
+          </div>
+
+
+
+
+          <div class="team-card-mother">
+
+
+
         
             <div class="team-card">
                
@@ -162,7 +173,7 @@
                 
                 </div>
         
-          <div class="team-card">
+          <div id="masterp"   class="team-card">
                
                     <div class="team-img-card">
                       <img src="assets/images/engineer.JPG" width="100%">
@@ -174,10 +185,10 @@
                       </div>
 
               
-          <div class="team-card">
+          <div  class="team-card">
                
               <div class="team-img-card">
-                <img src="assets/images/supervisor.JPG" width="100%">
+                <img src="assets/images/super 2.PNG" width="100%">
             </div>
                 
                 <h2>Sulaiman Musa</h2>
@@ -387,21 +398,23 @@
     
     }
 
-  /*  #master{
-    width:300px;
-    height: 300px;
-    overflow: hidden;
-    border:3px solid #556b2f;
-    border-radius: 100%;
-    
-    } */
-     #master img{
+    #master img{
   width:280px;
   height: 230px;
       position:relative;
       left:-25px;
       top:-5px;
     }
+    
+     #masterp img{
+  width:300px;
+  height: 270px;
+      position:relative;
+      left:-35px;
+      top:px;
+    }
+    
+   
     
     
     .team-card h2{
@@ -415,9 +428,29 @@
     
     }
     
+
+
+    .small-mom{
+      padding-top:50px;
+    }
+
+   
+
+    
     
     @media (min-width: 728px) {
     
+
+      .small-mom{
+        display:flex;
+      padding-top:90px;
+      gap:90px;
+      justify-content:center;
+    align-items:center;
+    }
+
+
+
       .team-card-mother{
     padding:7%;
     display:flex;
@@ -443,8 +476,19 @@
     }
     
     
+    .small-mom .team-card div{
+   width:280px;
+   height: 280px;
+    }
     
-    
+
+    #master img{
+  width:350px;
+  height: 280px;
+      position:relative;
+      left:-35px;
+      top:4px;
+    }
     
     #combo{
       display:flex;
